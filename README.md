@@ -1,2 +1,1 @@
-#matahari.tech
-#Matahari Herwin's portfolio website
+# Matahari Herwin's portfolio website
