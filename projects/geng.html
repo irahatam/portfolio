@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Matahari K Herwin | Generation Girl</title>
+    <link rel="stylesheet" href="pages.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="index.html">[maa-taa-harr-ee]</a></h1>
+
+      <div>
+        <div class="heading">
+          <span class="downarrow headingdown">&gt;</span>
+          <a>[view more]</a>
+        </div>
+        <div class="hiddenprojectlist projectlist">
+          <a href="recme.html" class="project">recommend me</a>
+          <a href="clocktopus.html" class="project">dr. clocktopus</a>
+          <a href="gofood.html" class="project">go-food</a>
+          <a href="klasses.html" class="project">klasses</a>
+          <a href="bunkie.html" class="project">bunkie</a>
+          <a
+            href="https://www.behance.net/gallery/105395593/The-Closet"
+            target="_blank"
+            class="project"
+            >the closet</a
+          >
+          <hr />
+          <!-- <a href="sonyc.html" class="project">sonyc</a> -->
+          <!-- <a href="colearn.html" class="project">colearn</a> -->
+          <a href="geng.html" class="project">generation girl</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <h1 class="project-title">Generation Girl</h1>
+      <p class="categories">[mentoring & teaching]</p>
+      <div class="project-description">
+        <p>
+          Generation Girl is a non-profit organization based in Jakarta,
+          Indonesia under Yayasan Generasi Maju Berkarya (YGMB) that focuses on
+          empowering young girls and building the next generation of Indonesian
+          female leaders in STEM. From early 2019 through the Summer of 2021, I
+          was involved at the organization as an instructor (mentor) and
+          curriculum builder.
+        </p>
+        <p>
+          The classes I've taught are:
+          <span class="blue">
+            Build a Website Introduction and Advanced (HTML, CSS, JavaScript
+            with React.js) </span
+          >, <span class="blue">Computer Science 101 (Python)</span>,
+          <span class="blue">UX Design</span>, and
+          <span class="blue">
+            Applied Data Science/Intro to Machine Learning (image recognition
+            app with Python, Flask, and TensorFlow)</span
+          >.
+        </p>
+        <p>
+          If you want a complete list of topics that I've covered during my
+          classes, or want me to speak/teach at one of your events, please don't
+          hesitate to reach out!
+        </p>
+      </div>
+    </div>
+    <div class="pics">
+      <img src="img/geng-1.png" />
+      <img src="img/geng-2.png" />
+      <img src="img/geng-3.png" />
+      <img src="img/geng-4.png" />
+      <img src="img/geng-5.png" />
+      <img src="img/geng-6.png" />
+      <img src="img/geng-7.png" />
+      <img src="img/geng-8.png" />
+      <img src="img/geng-9.png" />
+      <img src="img/geng-10.png" />
+      <img src="img/geng-11.png" />
+    </div>
+
+    <footer>
+      <p>call me, beep me, if you wanna reach me!</p>
+      <ul id="ul">
+        <li class="footer">
+          <a href="mailto:matahari@nyu.edu">[email]</a>
+        </li>
+        <li class="footer">
+          <a href="https://www.linkedin.com/in/matahari" target="_blank"
+            >[linkedin]</a
+          >
+        </li>
+        <li class="footer">
+          <a href="#" target="_blank">[resume]</a>
+        </li>
+        <li class="footer">
+          <a href="https://www.github.com/irahatam" target="_blank">[github]</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script>
+    let headingClick = document.querySelector(".heading");
+    headingClick.onclick = function (event) {
+      headingClick.nextElementSibling.classList.toggle("hiddenprojectlist");
+      headingClick.children[0].classList.toggle("headingdown");
+      headingClick.children[0].classList.toggle("headingup");
+    };
+  </script>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Matahari K Herwin | TBSP</title>
+    <link rel="stylesheet" href="pages.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="index.html">[maa-taa-harr-ee]</a></h1>
+
+      <div>
+        <div class="heading">
+          <span class="downarrow headingdown">&gt;</span>
+          <a>[view more]</a>
+        </div>
+        <div class="hiddenprojectlist projectlist">
+          <a href="recme.html" class="project">recommend me</a>
+          <a href="clocktopus.html" class="project">dr. clocktopus</a>
+          <a href="gofood.html" class="project">go-food</a>
+          <a href="klasses.html" class="project">klasses</a>
+          <a href="bunkie.html" class="project">bunkie</a>
+          <a
+            href="https://www.behance.net/gallery/105395593/The-Closet"
+            target="_blank"
+            class="project"
+            >the closet</a
+          >
+          <hr />
+          <!-- <a href="sonyc.html" class="project">sonyc</a> -->
+          <!-- <a href="colearn.html" class="project">colearn</a> -->
+          <a href="geng.html" class="project">generation girl</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <h1 class="project-title">RecommendMe</h1>
+      <p class="categories">[ux research & product design]</p>
+      <div class="project-description">
+        <p>
+          RecommendMe was born from the want and need to have an easier way to
+          request recommendation letters from professors.
+        </p>
+
+        <b><i>This is an on-going project, stay tuned for updates!</i></b>
+
+        <div class="padding"></div>
+
+        <div class="project-desc">
+          <div>
+            <b>Team</b>
+            <p>Matahari</p>
+          </div>
+          <div>
+            <b>Timeframe</b>
+            <p>Feb 2021 - Present</p>
+          </div>
+          <div>
+            <b>Role</b>
+            <p>Product Designer, Researcher</p>
+          </div>
+
+          <!-- <div>
+            <b>Tools</b>
+            <p>Test</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="padding"></div>
+
+    <div align="center">
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          height: 0;
+          padding-top: 56.25%;
+          padding-bottom: 48px;
+          box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+          margin-top: 1.6em;
+          margin-bottom: 0.9em;
+          overflow: hidden;
+          border-radius: 8px;
+          will-change: transform;
+        "
+      >
+        <iframe
+          loading="lazy"
+          style="
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none;
+            padding: 0;
+            margin: 0;
+          "
+          src="https://www.canva.com/design/DAE6P7BsatE/view"
+          allowfullscreen="allowfullscreen"
+          allow="fullscreen"
+        >
+        </iframe>
+      </div>
+    </div>
+
+    <footer>
+      <p>call me, beep me, if you wanna reach me!</p>
+      <ul id="ul">
+        <li class="footer">
+          <a href="mailto:matahari@nyu.edu">[email]</a>
+        </li>
+        <li class="footer">
+          <a href="https://www.linkedin.com/in/matahari" target="_blank"
+            >[linkedin]</a
+          >
+        </li>
+        <li class="footer">
+          <a href="#" target="_blank">[resume]</a>
+        </li>
+        <li class="footer">
+          <a href="https://www.github.com/irahatam" target="_blank">[github]</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script>
+    let headingClick = document.querySelector(".heading");
+    headingClick.onclick = function (event) {
+      headingClick.nextElementSibling.classList.toggle("hiddenprojectlist");
+      headingClick.children[0].classList.toggle("headingdown");
+      headingClick.children[0].classList.toggle("headingup");
+    };
+  </script>
+</html>

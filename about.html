@@ -3,61 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Matahari K Herwin</title>
-    <link rel="icon" type="image/x-icon" href="img/sunflower.png" />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Matahari Herwin</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
   </head>
 
   <body>
-    <div class="main">
-      <img src="img/pic.png" width="30%" class="profile" />
-      <p>matahari <span class="blue">[maa-taa-harr-ree] </span> herwin</p>
-      <p class="bio">
-        i'm a graduate student at new york university's school of engineering
-        pursuing an ms in management of technology/information systems. i
-        graduated magna cum laude from the same institution with a degree in
-        computer science and design. i'm interested in the melting pot of design
-        and technology, integrating them to create strategic and meaningful
-        solution for users.
-      </p>
-      <p class="bio">
-        i grew up in jakarta, and have lived briefly in sydney, australia and
-        seattle, washington before finally settling down in new york city. i
-        love going on airplanes and travelling: at the top of my bucket list is
-        to visit sweden (the home of ikea). i also enjoy playing musical
-        instruments, dancing, tennis, running, and binge watching past seasons
-        of survivor & the amazing race.
-      </p>
-      <p class="bio"><a href="index.html">[go back]</a></p>
-    </div>
-
-    <div class="padding"></div>
-
-    <footer>
-      <p>call me, beep me, if you wanna reach me!</p>
-      <ul id="ul">
-        <li class="footer">
-          <a href="mailto:matahari@nyu.edu">[email]</a>
+    <!-- NAVBAR STARTS -->
+    <header class="d-flex flex-wrap flex-row-reverse">
+      <ul class="nav nav-pills">
+        <li class="nav-item m-md-1">
+          <a href="index.html" class="btn btn-outline-primary">Home</a>
         </li>
-        <li class="footer">
-          <a href="https://www.linkedin.com/in/matahari" target="_blank"
-            >[linkedin]</a
+        <li class="nav-item m-md-1">
+          <a href="mailto:matahari@nyu.edu" class="btn btn-outline-primary"
+            >Contact</a
           >
         </li>
-        <li class="footer">
-          <a href="#" target="_blank">[resume]</a>
-        </li>
-        <li class="footer">
-          <a href="https://www.github.com/irahatam" target="_blank">[github]</a>
+        <li class="nav-item m-md-1">
+          <a
+            href="https://www.linkedin.com/in/matahari"
+            target="_blank"
+            class="btn btn-outline-primary"
+            >LinkedIn</a
+          >
         </li>
       </ul>
-    </footer>
+    </header>
+    <!-- NAVBAR ENDS -->
+    <div
+      class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-row align-items-center"
+    >
+      <img src="img/NYU-46.jpg" width="30%" />
+      <main class="px-3">
+        <h1 class="display-6 fw-normal pink-text">
+          Oh, hi! Wanna know more about me?
+        </h1>
+        <p class="lead">
+          I'm the most curious person I know. Growing up, I've always wanted to
+          know how things worked and why things happen. This curiousity proved
+          to be helpful in my work around UX and PM.
+        </p>
+        <p class="lead">
+          Currently, I am pursuing my MS in Information Systems (Management of
+          Technology) at NYU's Tandon School of Engineering. During my
+          undergraduate studies, I studied computer science and design, learning
+          how to generate creative solutions to complex problems. Adding the
+          data analysis and management skills from my graduate education, I hope
+          to become a well-rounded project/product manager.
+        </p>
+        <p class="lead">
+          I play tennis and badminton on weekends, and ocasionally play pool
+          (billiards) for fun. I'm always itching to get on an airplane to
+          travel, and I love to capture memories using my vintage cameras!
+        </p>
+        <a href="#" class="btn btn-outline-primary">Download My Resume</a>
+      </main>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
