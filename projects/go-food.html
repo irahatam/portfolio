@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Matahari K Herwin | Bunkie</title>
+    <link rel="stylesheet" href="pages.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="index.html">[maa-taa-harr-ee]</a></h1>
+
+      <div>
+        <div class="heading">
+          <span class="downarrow headingdown">&gt;</span>
+          <a>[view more]</a>
+        </div>
+        <div class="hiddenprojectlist projectlist">
+          <a href="recme.html" class="project">recommend me</a>
+          <a href="clocktopus.html" class="project">dr. clocktopus</a>
+          <a href="gofood.html" class="project">go-food</a>
+          <a href="klasses.html" class="project">klasses</a>
+          <a href="bunkie.html" class="project">bunkie</a>
+          <a
+            href="https://www.behance.net/gallery/105395593/The-Closet"
+            target="_blank"
+            class="project"
+            >the closet</a
+          >
+          <hr />
+          <!-- <a href="sonyc.html" class="project">sonyc</a> -->
+          <!-- <a href="colearn.html" class="project">colearn</a> -->
+          <a href="geng.html" class="project">generation girl</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <h1 class="project-title">Go-Food</h1>
+      <p class="categories">[ux research & product design]</p>
+      <div class="project-description">
+        <p>
+          This project is a part of my Human-Computer Interaction class at New
+          York University. Throughout the semester, I studied the product
+          extensively from doing a usability evaluation to designing a UI
+          prototype. <i>I am not affiliated with Gojek or Gofood in any way.</i>
+        </p>
+
+        <div class="project-desc">
+          <div>
+            <b>Team</b>
+            <p>Individual Project</p>
+          </div>
+          <div>
+            <b>Timeframe</b>
+            <p>13 Weeks (Spring Semester 2021)</p>
+          </div>
+          <div>
+            <b>Role</b>
+            <p>User Resarch and Analysis & Prototyping</p>
+          </div>
+          <!-- <div>
+            <b>Tools</b>
+            <p>Test</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="padding"></div>
+
+    <div align="center">
+      <iframe
+        src="https://docs.google.com/presentation/d/e/2PACX-1vShUMXvGCeCd5Nl64Sdia060FR87V1t9tQVyJlTeUWhQOc05STiKl_lEPFTGLgUcq9lzqPnozjZmdRs/embed?start=false&loop=false"
+        frameborder="0"
+        width="960"
+        height="569"
+        allowfullscreen="true"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+      ></iframe>
+    </div>
+
+    <footer>
+      <p>call me, beep me, if you wanna reach me!</p>
+      <ul id="ul">
+        <li class="footer">
+          <a href="mailto:matahari@nyu.edu">[email]</a>
+        </li>
+        <li class="footer">
+          <a href="https://www.linkedin.com/in/matahari" target="_blank"
+            >[linkedin]</a
+          >
+        </li>
+        <li class="footer">
+          <a href="#" target="_blank">[resume]</a>
+        </li>
+        <li class="footer">
+          <a href="https://www.github.com/irahatam" target="_blank">[github]</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script>
+    let headingClick = document.querySelector(".heading");
+    headingClick.onclick = function (event) {
+      headingClick.nextElementSibling.classList.toggle("hiddenprojectlist");
+      headingClick.children[0].classList.toggle("headingdown");
+      headingClick.children[0].classList.toggle("headingup");
+    };
+  </script>
+</html>
