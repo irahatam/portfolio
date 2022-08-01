@@ -12,6 +12,12 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+p,
+li,
+b {
+  font-size: 1.1em;
+}
+
 .pink-text {
   color: var(--secondary);
 }
