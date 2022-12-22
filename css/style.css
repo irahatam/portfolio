@@ -111,7 +111,7 @@ body {
   margin: 4px auto;
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
-  background-color: var(--bg-secondary);
+  background-color: var(--card-background);
 }
 
 /* Hero section */
@@ -189,16 +189,6 @@ body {
 
 /* Footer */
 
-#footer {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-}
-
 #footer .container {
   display: flex;
   flex-direction: column;
@@ -238,7 +228,6 @@ body {
 #footer .foot-text {
   font-family: "bd-supper", sans-serif;
   font-size: 1.3rem;
-  /* color: #e5db7b; */
 }
 
 /* Responsiveness */
