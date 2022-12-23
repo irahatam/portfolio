@@ -137,6 +137,10 @@ h1 {
   font-weight: 300;
 }
 
+.content-text p u {
+  color: #ff1361;
+}
+
 /* Project cards */
 .card {
   padding: 1rem;
